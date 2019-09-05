@@ -68,15 +68,18 @@ main{
 }
   .step-box{
     float: none;
-    width: 100%;
+    width: 90%;
   }
 .step-img1{
   height: 350px;
+  margin: 20px 0;
 }
 .step-img2{
   height: 350px;
+  margin: 20px 0;
 }
 .step-img3{
   height: 350px;
+  margin: 20px 0;
 }
 }

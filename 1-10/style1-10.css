@@ -62,7 +62,7 @@ header{
 
 .portfolio{
 	width :100%;
-	height: 300px;
+	height: 1400px;
 	background-color: #ECEFF1;
 }
 
@@ -70,6 +70,55 @@ header{
 	font-size: 32px;
 	color: #000000;
 	padding: 90px 200px 0 200px;
+}
+
+.img1{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/sketch.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.img2{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.img3{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/write.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.img4{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.img5{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/talk.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.img6{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-position: center;
+	background-size: cover;
 }
 
 .feature{
