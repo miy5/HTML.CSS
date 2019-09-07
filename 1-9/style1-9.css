@@ -76,7 +76,7 @@ main {
 }
 
 .step-box:nth-child(2){
-  padding: 20px 0;
+  margin: 20px 0;
 }
 
 .step-box:last-child{
