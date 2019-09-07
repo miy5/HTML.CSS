@@ -12,26 +12,34 @@
 
 header{
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	text-align: center;
 	background-color: #EC715F;
 }
 
 .headline{
 	font-size: 16px;
+	width: 1024px;
 }
 
+.mysite{
+	height: 70px;
+	float: left;
+}
+
+.nav{
+	float:right;
+}
 .nav-list{
-	text-align: right;
-	padding: 10px 0;
-	margin: 0 auto;
-}
-
-.nav-list-item{
+	float: left;
+	width: 120px;
+	line-height: 70px;
+	color: #FAFAFA;
+	padding: 0 30px;
 	list-style: none;
-	display: inline-block;
-	margin: 0 30px;
+	font-size: 16px;
 }
+	
 .main-visual{
 	width: 100%;
 	height: 650px;
@@ -60,16 +68,31 @@ header{
 	margin: 0 auto;
 }
 
-.portfolio{
-	width :100%;
-	height: 1400px;
+#portfolio{
+	width :1024px;
+	margin: 0 auto;
 	background-color: #ECEFF1;
 }
 
-.portfolio-title{
+.box1{
+    width: 920px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.heading{
 	font-size: 32px;
 	color: #000000;
-	padding: 90px 200px 0 200px;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.portforlio-contect{
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
 }
 
 .img1{
@@ -78,6 +101,8 @@ header{
 	background-image: url(img/sketch.jpg);
 	background-position: center;
 	background-size: cover;
+	float: left;
+	margin: 10px 10px;
 }
 
 .img2{
@@ -87,6 +112,7 @@ header{
 	background-position: center;
 	background-size: cover;
 	float: left;
+	margin: 10px 10px;
 }
 
 .img3{
@@ -95,6 +121,8 @@ header{
 	background-image: url(img/write.jpg);
 	background-position: center;
 	background-size: cover;
+	float: left;
+	margin: 10px 10px;
 }
 
 .img4{
@@ -103,6 +131,8 @@ header{
 	background-image: url(img/webcamp.png);
 	background-position: center;
 	background-size: cover;
+	float: left;
+	margin: 10px 10px;
 }
 
 .img5{
@@ -111,6 +141,8 @@ header{
 	background-image: url(img/talk.jpg);
 	background-position: center;
 	background-size: cover;
+	float: left;
+	margin: 10px 10px;
 }
 
 .img6{
@@ -119,11 +151,27 @@ header{
 	background-image: url(img/webcamp-mother.png);
 	background-position: center;
 	background-size: cover;
+	float: left;
+	margin: 10px 10px;
 }
 
-.feature{
-	width: 980px;
-	height: 300px;
+#feature{
+	background-size: cover;
+	background-position: center;
+}
+
+.feature-title{
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px;
+	text-align: center;
+}
+
+.feature-contect{
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
 }
 
 .profile{

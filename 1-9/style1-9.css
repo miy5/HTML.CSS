@@ -17,7 +17,7 @@ main{
 
 .step-box{
   float: left;
-  width: 300px;
+  width: 280px;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -63,23 +63,24 @@ main{
 }
 
 @media screen and (max-width:768px) {
-  main{
+
+main {
+  width: 90%;
+  padding: 50px auto;
+}
+
+.step-box{
   width: 100%;
+  margin: 0 auto;
+  float: none;
 }
-  .step-box{
-    float: none;
-    width: 90%;
-  }
-.step-img1{
-  height: 350px;
-  margin: 20px 0;
+
+.step-box:nth-child(2){
+  padding: 20px 0;
 }
-.step-img2{
-  height: 350px;
-  margin: 20px 0;
+
+.step-box:last-child{
+  margin: 0 auto;
 }
-.step-img3{
-  height: 350px;
-  margin: 20px 0;
-}
+
 }
