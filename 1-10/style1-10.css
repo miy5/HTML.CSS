@@ -17,6 +17,9 @@ header{
 	background-color: #EC715F;
 }
 
+.fa-bars{
+	display: none;
+}
 .list{
 	color: #FAFAFA;
 	font-size: 16px;
@@ -60,9 +63,9 @@ header{
 }
 
 .main-visual-text{
-	height: 650px;
 	font-size: 20px;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .main clearfix{
@@ -184,7 +187,18 @@ header{
 .strength:last-child{
 	margin-right: 0;
 }
-.fa{
+
+.fa-facebook-f{
+	display: inline-block;
+	font-size: 60px;
+}
+
+.fa-twitter{
+	display: inline-block;
+	font-size: 60px;
+}
+
+.fa-instagram{
 	display: inline-block;
 	font-size: 60px;
 }
@@ -229,6 +243,7 @@ header{
 .box3{
 	padding: 30px 0 90px 0;
 	width: 1024px;
+	margin: 0 auto;
 }
 
 .box4{
@@ -239,13 +254,13 @@ header{
 .left2{
 	width: 400px;
 	float: left;
-	text-align: center;
+	text-align: left;
 }
 
 .right2{
 	width: 400px;
 	float: right;
-	text-align: center;
+	text-align: left;
 }
 
 .sns-icon{
@@ -255,6 +270,7 @@ header{
 .sab-title{
 	font-size: 20px;
 	margin-bottom: 5px;
+	margin-top: 20px;
 
 }
 
@@ -262,6 +278,7 @@ header{
 	width: 70px;
 	border-bottom:solid 3px #EC715F;
     margin:0 auto;
+    padding-top: 8px;
 }
 footer{
 	width: 100%;
@@ -277,8 +294,129 @@ footer{
 }
 
 
-@media screen and (max-width:425px){
+@media screen and (max-width:767px){
 
+header{
+	height: 50px;
+}
+
+.fa-bars{
+	display: block;
+	font-size: 40px;
+	float: right;
+	color: white;
+	margin: 5px 20px 5px 0;
+}
+
+.mysite{
+	padding-bottom: 15px;
+}
+
+.box5{
+	width: 90%;
+	float: right;
+}
+
+.nav-list{
+	display: none;
+}
+.main-visual{
+	background-image: url(img/code.png);
+	width: 100%;
+
+}
+
+.main-visual-title{
+	font-size: 40px;
+}
+
+.main-visual-text{
+	font-size: 18px;
+}
+main{
+	width: 90%;
+}
+
+.nav{
+	float: none;
+}
+.nav-list{
+	float: none;
+}
+
+.portforlio-contect,.heading{
+	margin:0 5%;
+}
+.box1{
+	width: 90%;
+	margin-top: 20px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6{
+	float: none;
+}
+
+.img1,.img3,.img5{
+    display: none;
+}
+
+.img4{
+	margin: 10px 0;
+}
+
+.img2,.img4,.img6{
+    margin: 0 auto;
+    margin-top: 10px;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.strength{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	width:90%;
+}
+
+#feature{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.strength:last-child{
+	margin: 0 auto;
+}
+
+.box2{
+	margin: 0 auto;
+    width: 90%;
+}
+
+.heading-text{
+	margin: 0 5%;
+}
+
+
+.left,.left2,.right,.right2{
+	float: none;
+	width: 100%;
+}
+
+.left2,.right2{
+	margin: 0 auto;
+	text-align: center;
+}
+.box3{
+	width:90%;
+	text-align: center;
+}
+.sns-icon{
+	padding-right: 8px;
+}
+
+.box4{
+	margin: 0 auto;
+}
 
 
 
